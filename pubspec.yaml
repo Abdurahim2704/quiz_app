@@ -1,0 +1,54 @@
+name: ibrat_informatika
+description: "ibrat clone for informatika"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+  google_nav_bar: ^5.0.6
+  youtube_player_flutter: ^8.1.2
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  meta: ^1.10.0
+  flutter_svg: ^2.0.9
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  flutter_launcher_icons: ^0.13.1
+  go_router: ^13.0.1
+
+flutter_native_splash:
+  android: true
+  ios: true
+  image : "assets/images/background.png"
+  android_12:
+    image: "assets/images/background.png"
+  color: "#000000"
+dev_dependencies:
+  flutter_native_splash: ^2.3.6
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter_icons:
+  image_path: "assets/images/app_icon.png"
+  android: true
+  ios: true
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/datas/data.json
+    - assets/icons/
+
+
+

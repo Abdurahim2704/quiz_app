@@ -13,4 +13,6 @@ This project (app) is Quiz app:
     * Bloc for state management
       and others
       here is how works app and ui:
+
+
 https://github.com/Abdurahim2704/quiz_app/assets/96531979/79a18951-90cd-4c64-9a24-9b87050a5e74
